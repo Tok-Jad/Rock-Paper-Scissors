@@ -1,1 +1,3 @@
-
+function computerPlay() {
+    return "Rock"
+}
