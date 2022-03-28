@@ -6,16 +6,14 @@ function computerPlay() {
         var computerChoice = "Paper"
     else var computerChoice = "Scissors"
 }
-console.log(computerPlay())
-
-let playerSelection = "rock"
 
 function playRound(playerSelection, computerSelection) {
-    if (playerSelection == "rock")
-        return "Tie"
+    
+
+    //if (playerSelection == "rock")
+        //return "Tie"
 
 }
-
-//const playerSelection = "rock"
+const playerSelection = prompt ("Type Rock, Paper, or Scissors");
 const computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
