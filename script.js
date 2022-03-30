@@ -1,3 +1,15 @@
+//--------------------------DECLARATIONS-----------------------------
+const playerSelection = playerPlay();
+const computerSelection = computerPlay();
+
+//--------------------------FUNCTIONS--------------------------------
+function playerPlay() {
+    playerChoice = prompt ("Type Rock, Paper, or Scissors"); {
+        if (playerChoice != "Rock");
+
+    }
+}
+
 function computerPlay() {
     computerChoice = Math.floor(Math.random() * 3)
     if (computerChoice == 0)
@@ -5,15 +17,13 @@ function computerPlay() {
     else if (computerChoice == 1)
         var computerChoice = "Paper"
     else var computerChoice = "Scissors"
+
+console.log ("The Computer chose " + computerChoice);
 }
 
-function playRound(playerSelection, computerSelection) {
-    
+//--------------------------Calling the Functions--------------------
 
-    //if (playerSelection == "rock")
-        //return "Tie"
 
-}
-const playerSelection = prompt ("Type Rock, Paper, or Scissors");
-const computerSelection = computerPlay();
-console.log(playRound(playerSelection, computerSelection));
+
+
+//-------------------------------------------------------------------
